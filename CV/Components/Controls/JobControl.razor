@@ -1,10 +1,10 @@
 ﻿@using CV.Models
+@using System.Globalization
 
 <div class="job">
     <div class="period">
-        <p><strong>Periode:</strong></p>
         <p>
-            <span>@Job.Start</span> - <span>@Job.Slut</span>
+            <span>@Job.StartDate.ToString("MMM yyyy", new CultureInfo("da-DA"))</span> - <span>@Job.SlutDate.ToString("MMM yyyy", new CultureInfo("da-DA"))</span>
         </p>
     </div>
     <div class="details">

@@ -1,13 +1,4 @@
-﻿body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-.container {
+﻿.container {
     width: 80%;
     margin: auto;
     overflow: hidden;
@@ -28,24 +19,24 @@ header {
 
 .job {
     background: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
     margin: 0;
     border: 0;
+    line-height: 1.2;
 }
 
     .job .period {
-        width: 30%;
+        width: 15%;
         padding-right: 20px;
         box-sizing: border-box;
     }
 
     .job .details {
-        width: 70%;
+        width: 85%;
     }
 
     .job .job-header {
@@ -56,7 +47,7 @@ header {
     }
 
         .job .job-header .job-title {
-            font-size: 1.5em;
+            font-size: 1.2em;
             font-weight: bold;
             color: #333;
             margin: 0;
@@ -76,6 +67,7 @@ header {
     }
 
     .job .inline-list {
+        font-size: small;
         display: flex;
         flex-wrap: wrap;
         gap: 0;
@@ -90,7 +82,7 @@ header {
 
 .tagline {
     background: #fff;
-    padding: 5px 10px;
+    padding: 5px 5px;
     margin: 2px 0;
     border-radius: 4px;
 }
