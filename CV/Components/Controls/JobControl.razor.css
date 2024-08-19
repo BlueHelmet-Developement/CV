@@ -1,0 +1,96 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #fff 3px solid;
+    text-align: center;
+}
+
+    header h1 {
+        margin: 0;
+    }
+
+.job {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0;
+    border: 0;
+}
+
+    .job .period {
+        width: 30%;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+
+    .job .details {
+        width: 70%;
+    }
+
+    .job .job-header {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+        .job .job-header .job-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #333;
+            margin: 0;
+            text-align: left;
+            flex: 1;
+        }
+
+        .job .job-header .firma {
+            font-size: 1.1em;
+            font-weight: normal;
+            margin: 0;
+            text-align: right;
+        }
+
+    .job p {
+        margin: 5px 0;
+    }
+
+    .job .inline-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+        .job .inline-list span {
+            background: #f4f4f4;
+            padding: 5px 10px;
+            border-radius: 4px;
+            margin-right: 5px;
+        }
+
+.tagline {
+    background: #fff;
+    padding: 5px 10px;
+    margin: 2px 0;
+    border-radius: 4px;
+}

@@ -1,0 +1,206 @@
+{
+    "Joberfaring": [
+        {
+            "Firma" : "Solita A/S",   
+            "Titler" : [
+                "Softwareudvikler", 
+                "Systemkonsulent", 
+                "Scrummaster"
+            ],
+            "TagLines": [
+                "Arbejdet på flere .Net og python baserede projekter", 
+                "Opnået certificeringer i PSM1, Azure Data Fundamentals (DP900), Azure AI Fundamentals, samt flere DataCamp-certificeringer (Data Engineer, Data Analyst, SQL Associate"
+            ],
+            "Teknologier":[
+                "Maui",
+                "C#",
+                ".Net",
+                "Entity Framework Core",
+                "Microsoft SQL",
+                "Azure DevOps",
+                "Azure Portal",
+                "Terraform",
+                "Python",
+                "Projektledelse (Scrummaster)"
+              ] ,
+            "Start": "2022-11-01",
+            "Slut": "2024-07-31" 
+        },
+        {
+            "Firma" : "Intelligent Systems A/S",   
+            "Titler" : [
+                "Teknisk Projektleder", 
+                "Systemudvikler"
+            ],
+            "TagLines": ["Udvikling af produktionssystem"],
+            "Teknologier": [
+                ".Net",
+                "C#",
+                "WPF",
+                "Microsoft SQL",
+                "Sprintplanlægning",
+                "Projektledelse",
+                "Resultatrapportering",
+                "CI/CD",
+                "Azure DevOps",
+                "Azure CLI",
+                "Automatisering"
+              ],
+            "Start": "2021-10-01",
+            "Slut": "2022-06-30"
+        },
+        {
+            "Firma" : "Apport Systems A/S",   
+            "Titler" : ["Systemudvikler"],
+            "TagLines": [
+                "Udviklet og vedligeholdt apports lagerstyringssystem", 
+                "Designet og udviklet nyt produktionsstyringsmodul"
+            ],
+            "Teknologier": [
+                "C#",
+                "Windows Forms",
+                "Android (Xamarin)",
+                "SQL Server",
+                "XML/XSD",
+                "Entity Framework Core",
+                "WPF Prism",
+                "Projektstyring"
+              ],
+            "Start": "2019-12-01",
+            "Slut": "2020-10-31"
+        },
+        {
+            "Firma" : "Inspari A/S",   
+            "Titler" : ["Business Intelligens Supportkonsulent"],
+            "TagLines": [
+                "Telefon og digital kontakt til kunder", 
+                "Monitorering og vedligeholdelse af kritiske Business Intelligence systemer", 
+                "Strukturering af dataflows (ETL)"],
+            "Teknologier": [
+                "C#",
+                "SSIS",
+                "SSRS",
+                "Power BI",
+                "Tableau",
+                "Qlik",
+                "Microsoft SQL",
+                "Datavisualisering"
+              ],
+            "Start": "2018-10-01",
+            "Slut": "2019-11-30"
+        },
+        {
+            "Firma" : "Creuna A/S (Nu Knowit)",   
+            "Titler" : ["Insights And Analytics konsulent"],
+            "TagLines": [
+                "Håndtering af store datasets"
+            ],
+            "Teknologier": [
+                "Python",
+                "Klipfolio",
+                "MySQL",
+                "Datavisualisering"
+            ],
+            "Start": "2017-05-01",
+            "Slut": "2018-06-30"
+        },
+        {
+            "Firma" : "One.com",   
+            "Titler" : ["Økonomi Assistent"],
+            "TagLines": [
+                "Lært basalt bogholderiarbejde og budgetprognoser.",
+                "Arbejdede med KPI-analyser og udvikling af Excel-værktøjer til at forbedre beslutningsgrundlaget for CFO."],
+            "Teknologier": [
+                "Bogføring",
+                "Debitor- og kreditorstyring",
+                "Lønadministration",
+                "Afstemning",
+                "Rapportering",
+                "Budgettering og økonomisk planlægning"
+            ],
+            "Start": "2007-12-01",
+            "Slut": "2008-12-31"
+        },
+        {
+            "Firma" : "Forskellige Detail Butikker",   
+            "Titler" : ["Områdeansvarlig","Sælger"],
+            "TagLines": [
+                "Hjælper kunder med at finde og vælge produkter samt sikrer en god købsoplevelse.",
+                "Håndterer kasseapparatet, opretholder butikkens orden og lagerstyring."
+            ],
+            "Teknologier": [
+                "Salgsteknikker",
+                "Kassebetjening",
+                "Produktkendskab",
+                "Behovsafdækning"
+            ],
+            "Start": "2002-01-01",
+            "Slut": "2007-11-30"
+        }
+    ],
+    "Uddannelse" : [
+        {
+            "Firma" : "Matematisk Institut, Aarhus Universitet",   
+            "Titler" : ["Kandidat, Matematik-økonomi, Operations Analyse"],
+            "TagLines": [],
+            "Teknologier": [
+                "Logistik", 
+                "Planlægning", 
+                "Økonomi", 
+                "Data Warehousing", 
+                "Algoritmer og Datastrukturer", 
+                "Machine Learning",
+                "Matematisk modellering" 
+            ],
+            "Start": "2016-09-01",
+            "Slut": "2018-10-31"
+        },
+        {
+            "Firma" : "Matematisk Institut, Aarhus Universitet",   
+            "Titler" : ["Bachelor, Matematik-økonomi"],
+            "TagLines": [],
+            "Teknologier": [
+                "Matematisk modellering",
+                "Matematisk analyse",
+                "Mikroøkonomi",
+                "Makroøkonomi",
+                "Statistik",
+                "Sandsynligheds Matematik"    
+            ],
+            "Start": "2013-09-01",
+            "Slut": "2016-06-30"
+        },
+        {
+            "Firma" : "Nationalmuseet, Nimb Terrasse i Tivoli og De 2 Have i Skagen",   
+            "Titler" : ["Gastronomelev"],
+            "TagLines": [],
+            "Teknologier": ["Håndtering af råvare", "Service"],
+            "Start": "2010-04-01",
+            "Slut": "2013-05-31"
+        },        
+        {
+            "Firma" : "Cph West",   
+            "Titler" : ["Merkonom Økonomistyring og erhvervsøkonomi."],
+            "TagLines": [],
+            "Teknologier": ["Økonomistyring", "Erhvervsøkonomi", "Erhvervsret" ,"Statistik"],
+            "Start": "2008-01-01",
+            "Slut": "2008-12-31"
+        },
+        {
+            "Firma" : "Flyvevåbnets føring og operationsstøtteskole",   
+            "Titler" : ["Officersaspirant, Værnepligt"],
+            "TagLines": [],
+            "Teknologier": ["Teamleder", "Instruktør", "Formidling"],
+            "Start": "2006-02-01",
+            "Slut": "2007-01-31"
+        },
+        {
+            "Firma" : "Handelskolen Sjælland syd",   
+            "Titler" : ["Højere Handels Eksamen, HHx"],
+            "TagLines": [],
+            "Teknologier": [],
+            "Start": "",
+            "Slut": ""
+        }
+    ]
+}

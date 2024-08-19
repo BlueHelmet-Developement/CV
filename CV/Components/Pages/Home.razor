@@ -1,0 +1,22 @@
+﻿@page "/"
+@using CV.Models
+@using CV.Components.Controls
+@using CV.Services
+
+@inject IJsonReader JsonReader
+
+<h1>My Job Experience</h1>
+
+@foreach (var job in Jobs.Joberfaring)
+{
+    <JobControl Job="job" />
+}
+
+@code {
+    private Experience? Jobs { get; set; }
+
+    protected override void OnInitialized()
+    {
+        Jobs = JsonReader.ReadJsonFile(Path.Join("Data", "JobData.json"));
+    }
+}

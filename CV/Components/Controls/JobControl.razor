@@ -1,0 +1,40 @@
+﻿@using CV.Models
+
+<div class="job">
+    <div class="period">
+        <p><strong>Periode:</strong></p>
+        <p>
+            <span>@Job.Start</span> - <span>@Job.Slut</span>
+        </p>
+    </div>
+    <div class="details">
+        <div class="job-header">
+            @if (Job.Titler is not null) {
+                <h2 class="job-title">@String.Join(", ", Job.Titler)</h2>
+            }
+            <h2 class="firma">@Job.Firma</h2>
+        </div>
+        <div>
+            @if (Job.TagLines != null && Job.TagLines.Count > 0)
+            {
+                @foreach (var tagline in Job.TagLines)
+                {
+                    <div class="tagline">@tagline</div>
+                }
+            }
+        </div>
+        <div class="inline-list">
+            @if (Job.Teknologier != null && Job.Teknologier.Count > 0)
+            {
+                @foreach (var technology in Job.Teknologier)
+                {
+                    <span>@technology</span>
+                }
+            }
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter] public Job Job { get; set; } = new();
+}
