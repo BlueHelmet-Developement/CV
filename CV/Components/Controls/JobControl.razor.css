@@ -7,7 +7,7 @@
 header {
     background: #333;
     color: #fff;
-    padding-top: 30px;
+    padding-top: 10px;
     min-height: 70px;
     border-bottom: #fff 3px solid;
     text-align: center;
@@ -20,45 +20,40 @@ header {
 .job {
     background: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 20px;
+    padding: 5px;
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
-    margin: 0;
-    border: 0;
     line-height: 1.2;
 }
 
     .job .period {
-        width: 15%;
-        padding-right: 20px;
+        width: 18%;
         box-sizing: border-box;
+        font-size: 9px;
     }
 
     .job .details {
-        width: 85%;
+        width: 82%;
     }
 
     .job .job-header {
         display: flex;
-        align-items: baseline;
         justify-content: space-between;
-        margin-bottom: 10px;
+        align-items:baseline;
     }
 
         .job .job-header .job-title {
-            font-size: 1.2em;
+            font-size: 16px;
             font-weight: bold;
-            color: #333;
-            margin: 0;
             text-align: left;
             flex: 1;
         }
 
         .job .job-header .firma {
-            font-size: 1.1em;
+            font-size: 13px;
             font-weight: normal;
-            margin: 0;
+            font-style:italic;
             text-align: right;
         }
 
@@ -67,22 +62,23 @@ header {
     }
 
     .job .inline-list {
-        font-size: small;
+        font-size: 9px;
         display: flex;
         flex-wrap: wrap;
-        gap: 0;
     }
 
         .job .inline-list span {
             background: #f4f4f4;
-            padding: 5px 10px;
+            padding: 2px 2px;
             border-radius: 4px;
-            margin-right: 5px;
+            margin-right: 2px;
         }
 
-.tagline {
-    background: #fff;
-    padding: 5px 5px;
-    margin: 2px 0;
-    border-radius: 4px;
+.taglines {
+    padding-bottom: 10px;
 }
+    .tagline {
+        font-size: 12px;
+        background: #fff;
+        padding: 2px 2px;
+    }

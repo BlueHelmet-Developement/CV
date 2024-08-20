@@ -5,12 +5,49 @@
 
 @inject IJsonReader JsonReader
 
-<h1>My Job Experience</h1>
+<div class="contact-card">
+    <div class="contact-details">
+        <div class="contact-item">
+            <img src="https://img.icons8.com/?size=100&id=9659&format=png&color=000000" alt="Phone Icon" width="20" height="20">
+            <a href="tel:+4526181882">+45 2618 1882</a>
+        </div>
+        <div class="contact-item">
+            <img src="https://img.icons8.com/?size=100&id=63&format=png&color=000000" alt="Email Icon" width="20" height="20">
+            <a href="mailto:steffenhvid@gmail.com">steffenhvid@gmail.com</a>
+        </div>
+        <div class="contact-item">
+            <img src="https://img.icons8.com/?size=100&id=14096&format=png&color=000000" alt="Location Icon" width="20" height="20">
+            9000 Aalborg
+        </div>
+        <div class="contact-item">
+            <img src="https://img.icons8.com/?size=100&id=CL6HZa2CrlxB&format=png&color=000000" alt="Location Icon" width="20" height="20">
+            <a href="https://www.linkedin.com/in/steffenhvid/">LinkedIn</a>
+    </div>
+    </div>
+    
+    <div class="name-title">
+        <h2>Steffen Hvid Hansen</h2>
+        <p style="font-style:italic; font-size:10px;">Any improvements made anywhere besides the bottleneck are an illusion.</p>
+    </div>
+</div>
+<div>
+    <h2>Erhvervserfaring</h2>
+</div>
+<hr>
 
 @foreach (var job in Jobs.Joberfaring)
 {
     <JobControl Job="job" />
 }
+<div>
+<h2>Uddannelse</h2>
+</div>
+<hr>
+@foreach (var job in Jobs.Uddannelse)
+{
+    <JobControl Job="job" />
+}
+
 
 @code {
     private Experience? Jobs { get; set; }

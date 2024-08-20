@@ -10,11 +10,11 @@
     <div class="details">
         <div class="job-header">
             @if (Job.Titler is not null) {
-                <h2 class="job-title">@String.Join(", ", Job.Titler)</h2>
+                <span class="job-title">@String.Join(", ", Job.Titler)</span>
             }
-            <h2 class="firma">@Job.Firma</h2>
+            <span class="firma">@Job.Firma</span>
         </div>
-        <div>
+        <div class="taglines">
             @if (Job.TagLines != null && Job.TagLines.Count > 0)
             {
                 @foreach (var tagline in Job.TagLines)
