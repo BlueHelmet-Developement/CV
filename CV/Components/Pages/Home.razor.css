@@ -1,4 +1,9 @@
-﻿.contact-card {
+﻿.main-content {
+    display:flex;
+    width: 80%;
+}
+
+.contact-card {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: space-between;

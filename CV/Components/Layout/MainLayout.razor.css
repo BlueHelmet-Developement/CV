@@ -16,3 +16,8 @@
         right: 0.75rem;
         top: 0.5rem;
     }
+
+    main {
+        max-width:80%;
+        margin: 0 auto;
+    }
