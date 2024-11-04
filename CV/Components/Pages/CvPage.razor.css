@@ -1,0 +1,59 @@
+﻿hr {
+    margin: 0;
+}
+
+div {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-card {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #808080;
+    color: black;
+    padding: 15px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    vertical-align: middle;
+}
+
+    .contact-details img {
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+
+    .contact-details a {
+        color: black;
+        text-decoration: none;
+    }
+
+.name-title {
+    text-align: right;
+}
+
+    .name-title h2 {
+        margin: 0;
+        font-size: 24px;
+    }
+
+    .name-title p {
+        margin: 5px 0 0;
+        font-size: 16px;
+    }
+
+
+.interests {
+    font-size: 11px;
+}
+
+.section-header h2 {
+    margin: 10px 0px 10px 0px;
+}

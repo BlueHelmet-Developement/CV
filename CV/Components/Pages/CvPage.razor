@@ -1,0 +1,76 @@
+﻿@page "/cv"
+@using CV.Models
+@using CV.Components.Controls
+@using CV.Services
+
+@inject IJsonReader JsonReader
+
+<div class="contact-card">
+    <div class="contact-details">
+        <div class="contact-item">
+            <img src="https://img.icons8.com/?size=100&id=9659&format=png&color=000000" alt="Phone Icon" width="20" height="20">
+            <a href="tel:+4526181882">+45 2618 1882</a>
+        </div>
+        <div class="contact-item">
+            <img src="https://img.icons8.com/?size=100&id=63&format=png&color=000000" alt="Email Icon" width="20" height="20">
+            <a href="mailto:steffenhvid@gmail.com">steffenhvid@gmail.com</a>
+        </div>
+        <div class="contact-item">
+            <img src="https://img.icons8.com/?size=100&id=14096&format=png&color=000000" alt="Location Icon" width="20" height="20">
+            9000 Aalborg
+        </div>
+        <div class="contact-item">
+            <img src="https://img.icons8.com/?size=100&id=CL6HZa2CrlxB&format=png&color=000000" alt="Location Icon" width="20" height="20">
+            <a href="https://www.linkedin.com/in/steffenhvid/">LinkedIn</a>
+        </div>
+    </div>
+
+    <div class="name-title">
+        <h2>Steffen Hvid Hansen</h2>
+        <p style="font-style:italic; font-size:10px;">Any improvements made anywhere besides the bottleneck are an illusion.</p>
+    </div>
+</div>
+<div class="section-header">
+    <h2>Erhvervserfaring</h2>
+</div>
+<hr>
+
+@foreach (var job in Jobs.Joberfaring)
+{
+    <JobControl Job="job" />
+}
+<div class="section-header">
+    <h2>Uddannelse</h2>
+</div>
+<hr>
+@foreach (var job in Jobs.Uddannelse)
+{
+    <JobControl Job="job" />
+}
+<div>
+    <h2>Frivilligt arbejde</h2>
+</div>
+<hr>
+@foreach (var job in Jobs.Frivillig)
+{
+    <JobControl Job="job" />
+}
+
+<div class="section-header">
+    <h2>Interesser</h2>
+</div>
+<hr>
+<div class="section-header">
+    <span class="interests">
+        @Jobs.Personlig
+    </span>
+</div>
+
+@code {
+    private Experience? Jobs { get; set; }
+
+    protected override void OnInitialized()
+    {
+        Jobs = JsonReader.ReadJsonFile(Path.Join("Data", "JobData.json"));
+    }
+}

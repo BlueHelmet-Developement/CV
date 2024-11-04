@@ -1,206 +1,374 @@
 {
-    "Joberfaring": [
-        {
-            "Firma" : "Solita A/S",   
-            "Titler" : [
-                "Softwareudvikler", 
-                "Systemkonsulent", 
-                "Scrummaster"
-            ],
-            "TagLines": [
-                "Arbejdet på flere .Net og python baserede projekter", 
-                "Opnået certificeringer i PSM1, Azure Data Fundamentals (DP900), Azure AI Fundamentals, samt flere DataCamp-certificeringer (Data Engineer, Data Analyst, SQL Associate"
-            ],
-            "Teknologier":[
-                "Maui",
-                "C#",
-                ".Net",
-                "Entity Framework Core",
-                "Microsoft SQL",
-                "Azure DevOps",
-                "Azure Portal",
-                "Terraform",
-                "Python",
-                "Projektledelse (Scrummaster)"
-              ] ,
-            "Start": "2022-11-01",
-            "Slut": "2024-07-31" 
-        },
-        {
-            "Firma" : "Intelligent Systems A/S",   
-            "Titler" : [
-                "Teknisk Projektleder", 
-                "Systemudvikler"
-            ],
-            "TagLines": ["Udvikling af produktionssystem"],
-            "Teknologier": [
-                ".Net",
-                "C#",
-                "WPF",
-                "Microsoft SQL",
-                "Sprintplanlægning",
-                "Projektledelse",
-                "Resultatrapportering",
-                "CI/CD",
-                "Azure DevOps",
-                "Azure CLI",
-                "Automatisering"
-              ],
-            "Start": "2021-10-01",
-            "Slut": "2022-06-30"
-        },
-        {
-            "Firma" : "Apport Systems A/S",   
-            "Titler" : ["Systemudvikler"],
-            "TagLines": [
-                "Udviklet og vedligeholdt apports lagerstyringssystem", 
-                "Designet og udviklet nyt produktionsstyringsmodul"
-            ],
-            "Teknologier": [
-                "C#",
-                "Windows Forms",
-                "Android (Xamarin)",
-                "SQL Server",
-                "XML/XSD",
-                "Entity Framework Core",
-                "WPF Prism",
-                "Projektstyring"
-              ],
-            "Start": "2019-12-01",
-            "Slut": "2020-10-31"
-        },
-        {
-            "Firma" : "Inspari A/S",   
-            "Titler" : ["Business Intelligens Supportkonsulent"],
-            "TagLines": [
-                "Telefon og digital kontakt til kunder", 
-                "Monitorering og vedligeholdelse af kritiske Business Intelligence systemer", 
-                "Strukturering af dataflows (ETL)"],
-            "Teknologier": [
-                "C#",
-                "SSIS",
-                "SSRS",
-                "Power BI",
-                "Tableau",
-                "Qlik",
-                "Microsoft SQL",
-                "Datavisualisering"
-              ],
-            "Start": "2018-10-01",
-            "Slut": "2019-11-30"
-        },
-        {
-            "Firma" : "Creuna A/S (Nu Knowit)",   
-            "Titler" : ["Insights And Analytics konsulent"],
-            "TagLines": [
-                "Håndtering af store datasets"
-            ],
-            "Teknologier": [
-                "Python",
-                "Klipfolio",
-                "MySQL",
-                "Datavisualisering"
-            ],
-            "Start": "2017-05-01",
-            "Slut": "2018-06-30"
-        },
-        {
-            "Firma" : "One.com",   
-            "Titler" : ["Økonomi Assistent"],
-            "TagLines": [
-                "Lært basalt bogholderiarbejde og budgetprognoser.",
-                "Arbejdede med KPI-analyser og udvikling af Excel-værktøjer til at forbedre beslutningsgrundlaget for CFO."],
-            "Teknologier": [
-                "Bogføring",
-                "Debitor- og kreditorstyring",
-                "Lønadministration",
-                "Afstemning",
-                "Rapportering",
-                "Budgettering og økonomisk planlægning"
-            ],
-            "Start": "2007-12-01",
-            "Slut": "2008-12-31"
-        },
-        {
-            "Firma" : "Forskellige Detail Butikker",   
-            "Titler" : ["Områdeansvarlig","Sælger"],
-            "TagLines": [
-                "Hjælper kunder med at finde og vælge produkter samt sikrer en god købsoplevelse.",
-                "Håndterer kasseapparatet, opretholder butikkens orden og lagerstyring."
-            ],
-            "Teknologier": [
-                "Salgsteknikker",
-                "Kassebetjening",
-                "Produktkendskab",
-                "Behovsafdækning"
-            ],
-            "Start": "2002-01-01",
-            "Slut": "2007-11-30"
-        }
+  "Joberfaring": [
+    {
+      "Firma": "Solita A/S",
+      "Titler": [
+        "Softwareudvikler",
+        "Systemkonsulent",
+        "Scrummaster"
+      ],
+      "Fritekst" : "Hos Solita A/S har jeg siddet i et projektteam, og har allerede været inde over 4 forskellige projekter. Det projekterne har haft til fælles er at de alle har været i .Net stacken. Jeg har være i berøring med Maui, C# og Entity Framework Core. Jeg har også på det seneste haft mulighed for at udvikle pipelines i Azure devops, og sætte systemer op i Azure Portal med hjælp fra Terraform. På mit sidste projekt fik jeg også mulighed for at prøve kræfter som Scrum Master, hvilket jeg fandt meget spændende og udfordrende.",
+      "TagLines": [
+        "Deltaget i flere forskellige projekter inden for .NET stacken med fokus på Maui, C#, og Entity Framework Core.",
+        "Udviklet pipelines i Azure DevOps, opsat systemer i Azure Portal med Terraform, og fået erfaring som Scrum Master.",
+        "Opnået certificeringer i PSM1, Azure Data Fundamentals (DP900), Azure AI Fundamentals, samt flere DataCamp-certificeringer (Data Engineer, Data Analyst, SQL Associate"
+      ],
+      "Teknologier": [
+        "Maui",
+        "C#",
+        ".Net",
+        "Entity Framework Core",
+        "Microsoft SQL",
+        "Azure DevOps",
+        "Azure Portal",
+        "Terraform",
+        "Python",
+        "Projektledelse (Scrummaster)"
+      ],
+      "Start": "2022-11-01",
+      "Slut": "2024-07-31"
+    },
+    {
+      "Firma": "Intelligent Systems A/S",
+      "Titler": [
+        "Teknisk Projektleder",
+        "Systemudvikler"
+      ],
+      "Fritekst" : "Hos Intelligent Systems A/S var jeg med til at udvikle et MES system. Jeg har haft mulighed for at dykke ned i C#, WPF og Microsoft SQL. Jeg fik hurtigt ansvaret for frontend udviklingen, i en teknisk projektleder rolle. Her har jeg styrket mine kompetencer inden for Sprint Planlægning, Resultat Rapportering, CI/CD og Azure Devops (specielt deres board CLI).",
+      "TagLines": [ "Arbejdede på udviklingen af et MES-system med ansvar for frontend-udvikling og teknisk projektledelse." ],
+      "Teknologier": [
+        ".Net",
+        "C#",
+        "WPF",
+        "Microsoft SQL",
+        "Sprintplanlægning",
+        "Projektledelse",
+        "Resultatrapportering",
+        "CI/CD",
+        "Azure DevOps",
+        "Azure CLI",
+        "Automatisering"
+      ],
+      "Start": "2021-10-01",
+      "Slut": "2022-06-30"
+    },
+    {
+      "Firma": "Apport Systems A/S",
+      "Titler": [ "Systemudvikler" ],
+      "Fritekst": "Hos Apport Systems A/S var jeg med til at udvikle et WMS system. Jeg har haft mulighed for at dykke ned i C#, Windows Forms,  Android (xamarin), Sql Server og XML/XSD. Senest var jeg med til at designe og udvikle et produktionsstyrings modul, her fik jeg meget erfaring med Entity Framework Core, WPF og Prism. Jeg har lært en del om, hvordan man arbejder som udvikler i teams. Hvordan man får et produkt til marked, samt fået en del indsigter i forhold til planlægning i en udviklingsafdeling.",
+      "TagLines": [
+        "Udviklet og vedligeholdt apports lagerstyringssystem",
+        "Designet og udviklet nyt produktionsstyringsmodul"
+      ],
+      "Teknologier": [
+        "C#",
+        "Windows Forms",
+        "Android (Xamarin)",
+        "SQL Server",
+        "XML/XSD",
+        "Entity Framework Core",
+        "WPF Prism",
+        "Projektstyring"
+      ],
+      "Start": "2019-12-01",
+      "Slut": "2020-10-31"
+    },
+    {
+      "Firma": "Inspari A/S",
+      "Titler": [ "Business Intelligens Supportkonsulent" ],
+      "Fritekst": "Som supportkonsulent, har jeg haft en enorm berøringsflade. Alt fra motorrummet i SQL Server til Power-Bi Gateways. Jeg har fået en masse erfaring med T-SQL, alt fra hvordan man kan strukturere i Dataflow (ETL) til Query optimering og udvikling af stored procedures. Jeg har også fået lidt erfaring med C# i form af små web platforme, SSIS script components, og Power-Bi udvikling.",
+      "TagLines": [
+        "Telefon og digital kontakt til kunder",
+        "Monitorering og vedligeholdelse af kritiske Business Intelligence systemer",
+        "Strukturering af dataflows (ETL)"
+      ],
+      "Teknologier": [
+        "C#",
+        "SSIS",
+        "SSRS",
+        "Power BI",
+        "Tableau",
+        "Qlik",
+        "Microsoft SQL",
+        "Datavisualisering"
+      ],
+      "Start": "2018-10-01",
+      "Slut": "2019-11-30"
+    },
+    {
+      "Firma": "Creuna A/S (Nu Knowit)",
+      "Titler": [ "Insights And Analytics konsulent" ],
+      "Fritekst": "Jeg var en del af Insights og Analytics, hvor jeg løste ad hoc-opgaver i forhold til vores kunders ønsker og problemstillinger. Alt fra at eksportere data fra kildesystemer til at stage og præsentere det med blandt andet Python Dash og Klipfolio. Specielt har jeg arbejdet med at gøre store datamængder håndgribelige ved hjælp af MySQL og Python.",
+      "TagLines": [
+        "Håndtering af store datasets"
+      ],
+      "Teknologier": [
+        "Python",
+        "Klipfolio",
+        "MySQL",
+        "Datavisualisering"
+      ],
+      "Start": "2017-05-01",
+      "Slut": "2018-06-30"
+    },
+    {
+      "Firma": "Diverse Restauranter",
+      "Titler": [ "Gastronomelev" ],
+      "Fritekst": "Som elev i restaurationsbranchen, fik jeg mulighed for at arbejde på en bred vifte af restauranter. Nationalmuseet, Nimb Terrasse i Tivoli og De 2 Have i Skagen, for at nævne et par stykker. Det er et hektisk erhverv, hvor daglig omstilling er et must. Teamwork og evnen til at gå fra detalje til overblik er uundværlige evner for at kunne begå sig i et køkken.",
+      "TagLines": [
+          "Udførte praktisk træning i madlavning, herunder teknikker til forberedelse, tilberedning og præsentation af retter i et professionelt køkkenmiljø.",
+          "Lærte at arbejde effektivt under pres, opretholde køkkenhygiejne og sikkerhedsstandarder, samt samarbejde med et team for at sikre kvalitetsservice.",
+          "Udviklede færdigheder i menuplanlægning, råvarehåndtering og omkostningskontrol for at optimere køkkenets drift og forbedre kundetilfredsheden."
+      ],
+      "Teknologier": [
+        "madlavning",
+        "praktisk træning",
+        "professionelt køkken",
+        "teamwork",
+        "køkkenhygiejne",
+        "sikkerhedsstandarder",
+        "menuplanlægning",
+        "råvarehåndtering",
+        "omkostningskontrol",
+        "kundetilfredshed"
     ],
-    "Uddannelse" : [
-        {
-            "Firma" : "Matematisk Institut, Aarhus Universitet",   
-            "Titler" : ["Kandidat, Matematik-økonomi, Operations Analyse"],
-            "TagLines": [],
-            "Teknologier": [
-                "Logistik", 
-                "Planlægning", 
-                "Økonomi", 
-                "Data Warehousing", 
-                "Algoritmer og Datastrukturer", 
-                "Machine Learning",
-                "Matematisk modellering" 
-            ],
-            "Start": "2016-09-01",
-            "Slut": "2018-10-31"
-        },
-        {
-            "Firma" : "Matematisk Institut, Aarhus Universitet",   
-            "Titler" : ["Bachelor, Matematik-økonomi"],
-            "TagLines": [],
-            "Teknologier": [
-                "Matematisk modellering",
-                "Matematisk analyse",
-                "Mikroøkonomi",
-                "Makroøkonomi",
-                "Statistik",
-                "Sandsynligheds Matematik"    
-            ],
-            "Start": "2013-09-01",
-            "Slut": "2016-06-30"
-        },
-        {
-            "Firma" : "Nationalmuseet, Nimb Terrasse i Tivoli og De 2 Have i Skagen",   
-            "Titler" : ["Gastronomelev"],
-            "TagLines": [],
-            "Teknologier": ["Håndtering af råvare", "Service"],
-            "Start": "2010-04-01",
-            "Slut": "2013-05-31"
-        },        
-        {
-            "Firma" : "Cph West",   
-            "Titler" : ["Merkonom Økonomistyring og erhvervsøkonomi."],
-            "TagLines": [],
-            "Teknologier": ["Økonomistyring", "Erhvervsøkonomi", "Erhvervsret" ,"Statistik"],
-            "Start": "2008-01-01",
-            "Slut": "2008-12-31"
-        },
-        {
-            "Firma" : "Flyvevåbnets føring og operationsstøtteskole",   
-            "Titler" : ["Officersaspirant, Værnepligt"],
-            "TagLines": [],
-            "Teknologier": ["Teamleder", "Instruktør", "Formidling"],
-            "Start": "2006-02-01",
-            "Slut": "2007-01-31"
-        },
-        {
-            "Firma" : "Handelskolen Sjælland syd",   
-            "Titler" : ["Højere Handels Eksamen, HHx"],
-            "TagLines": [],
-            "Teknologier": [],
-            "Start": "2001-09-01",
-            "Slut": "2004-06-30"
-        }
-    ]
+      "Start": "2017-05-01",
+      "Slut": "2018-06-30"
+    },
+    {
+      "Firma": "One.com",
+      "Titler": [ "Økonomi Assistent" ],
+      "Fritekst": "Efter en lang periode med salg, søgte jeg nye udfordringer. Jeg har altid været interesseret i tal, så da en mulighed præsenterede sig selv, måtte jeg slå til. Jeg lærte alt fra basalt bogholderiarbejde til budgetprognoser. Mine opgaver udvidede sig hurtigt og jeg fik lov at lave KPI analyser og udvikling af værktøjer i Excel til at give vores CFO et bedre beslutningsgrundlag.",
+      "TagLines": [
+        "Lært basalt bogholderiarbejde og budgetprognoser.",
+        "Arbejdede med KPI-analyser og udvikling af Excel-værktøjer til at forbedre beslutningsgrundlaget for CFO."
+      ],
+      "Teknologier": [
+        "Bogføring",
+        "Debitor- og kreditorstyring",
+        "Lønadministration",
+        "Afstemning",
+        "Rapportering",
+        "Budgettering og økonomisk planlægning"
+      ],
+      "Start": "2007-12-01",
+      "Slut": "2008-12-31"
+    },
+    {
+      "Firma": "Forskellige Detail Butikker",
+      "Titler": [ "Områdeansvarlig", "Sælger" ],
+      "Fritekst" : "Kun afbrudt af en tur i flyvevåbnet, har jeg arbejdet med alle facetter af butikssalg. Jeg har holdt stillinger som områdeansvarlig og lukkeansvarlig. Jeg har lært, hvordan man taler kundens sprog og hvordan man får behovsafdækket, således kunden får det de brug for.",
+      "TagLines": [
+        "Hjælper kunder med at finde og vælge produkter samt sikrer en god købsoplevelse.",
+        "Håndterer kasseapparatet, opretholder butikkens orden og lagerstyring."
+      ],
+      "Teknologier": [
+        "Salgsteknikker",
+        "Kassebetjening",
+        "Produktkendskab",
+        "Behovsafdækning"
+      ],
+      "Start": "2002-01-01",
+      "Slut": "2007-11-30"
+    }
+  ],
+  "Uddannelse": [
+    {
+      "Firma": "Matematisk Institut, Aarhus Universitet",
+      "Titler": [ "Kandidat", "Matematik-økonomi", "Operations Analyse", "Cand.Scient.Oecon" ],
+      "Fritekst": "Operationsanalyse har til formål at løse komplicerede problemstillinger, specielt inden for logistik, planlægning og økonomi. Uddannelsen er forholdsvis åben, og jeg har valgt at tage en computer science vinkel frem for den klassisk tunge matematiske vinkel. Hvilket betyder jeg har fulgt kurser som: Data Warehousing, Algoritmer og Datastrukturer og Machine Learning. ",
+      "TagLines": [],
+      "Teknologier": [
+        "Logistik",
+        "Planlægning",
+        "Økonomi",
+        "Data Warehousing",
+        "Algoritmer og Datastrukturer",
+        "Machine Learning",
+        "Matematisk modellering"
+      ],
+      "Url": "https://kandidat.au.dk/matematik-oekonomi/",
+      "Start": "2016-09-01",
+      "Slut": "2018-10-31"
+    },
+    {
+      "Firma": "Matematisk Institut, Aarhus Universitet",
+      "Titler": [ "Bachelor", "Matematik-økonomi", "" ],
+      "Fritekst": "Fokus på de klassiske discipliner inden for matematik og økonomi. Heriblandt, Matematisk Analyse, Statistik og Sandsynlighed, Omkostninger og Regnskab, Mikro-/Makro Økonomi og Lineær Programmering.",
+      "TagLines": [],
+      "Teknologier": [
+        "Matematisk modellering",
+        "Matematisk analyse",
+        "Mikroøkonomi",
+        "Makroøkonomi",
+        "Statistik",
+        "Sandsynligheds Matematik"
+      ],
+      "Url": "https://bachelor.au.dk/matematikokonomi",
+      "Start": "2013-09-01",
+      "Slut": "2016-06-30"
+    },
+    {
+      "Firma": "Nationalmuseet, Nimb Terrasse i Tivoli og De 2 Have i Skagen",
+      "Titler": [ "Gastronomelev" ],
+      "TagLines": [],
+      "Teknologier": [ "Håndtering af råvare", "Service", "Ansvarlig", "Selskabsafvikling" ],
+      "Start": "2010-04-01",
+      "Slut": "2013-05-31"
+    },
+    {
+      "Firma": "Cph West",
+      "Titler": [ "Merkonom Økonomistyring og erhvervsøkonomi." ],
+      "TagLines": [],
+      "Fritekst": "Uddannelsen kvalificerer dig til at være en central aktør, når virksomheden skal have overblik over økonomien, vurdere investeringers lønsomhed og udarbejde budgetter.",
+      "Teknologier": [ "Økonomistyring", "Erhvervsøkonomi", "Erhvervsret", "Statistik" ],
+      "Start": "2008-01-01",
+      "Slut": "2008-12-31"
+    },
+    {
+      "Firma": "Flyvevåbnets føring og operationsstøtteskole",
+      "Titler": [ "Officersaspirant","Sergent Elev", "Værnepligtig" ],
+      "TagLines": [],
+      "Teknologier": [ "Teamleder", "Instruktør", "Formidling" ],
+      "Start": "2006-02-01",
+      "Slut": "2007-01-31"
+    },
+    {
+      "Firma": "Handelskolen Sjælland syd",
+      "Titler": [ "Højere Handels Eksamen, HHx" ],
+      "TagLines": [],
+      "Teknologier": [],
+      "Start": "2001-09-01",
+      "Slut": "2004-06-30"
+    }
+  ],
+  "Frivillig": [
+    {
+      "Firma": "Småkoret",
+      "Titler": [ "Næstformand (bestyrelse)" ],
+      "Fritekst": "Jeg går meget op i musik, og har i det sidste år været næstformand i Små-koret. Mine opgaver har primært været i forbindelse med koordinering af koncerter. COVID-19 har også fyldt meget, så vi har skulle udvikle og implementere en strategi for dette, og vi har formået at kunne synge under de påbud vi har været under.",
+      "TagLines": [
+        "Ansvarlig for koordinering af koncerter og udvikling af strategi tilpasset COVID-19-restriktioner.",
+        "Bidrog til at sikre fortsat musikaktivitet ved at implementere sikkerhedsforanstaltninger og tilpasning under pandemien."
+      ],
+      "Teknologier": [
+        "Koordinering af events",
+        "Tilpasningsevne",
+        "Samarbejde",
+        "Planlægning under restriktioner",
+        "Implementering af sikkerhedsforanstaltninger"
+      ],
+      "Start": "2020-01-01",
+      "Slut": "2020-12-31"
+    },
+    {
+      "Firma": "Aarhus Universitet",
+      "Titler": [ "Formand", "Kasserer", "Udvalgsmedlem" ],
+      "Fritekst": "Under mit studie, har jeg lavet en del frivilligt arbejde. Jeg har været frivillig, senere formand for matematisk fredagsbar. Jeg var kasserer for Matematik-Økonomisk Forening, der har til formål at afvikle brobyggende aktiviteter mellem de studerende, samt de studerende og  erhvervslivet. Jeg havde også fornøjelsen af at sidde i uddannelsesudvalget og programudvalget. Førstnævnte har til formål, at godkende kursus beskrivelser samt diskutere de strategiske mål for de matematiske fag. Sidstnævnte beskæftiger sig primært med Matematik-Økonomi og hvilke kurser der skal udbydes til de studerende.",
+      "TagLines": [
+        "Ansvarlig for økonomistyring og planlægning af brobyggende aktiviteter mellem studerende og erhvervsliv.",
+        "Medlem af uddannelses- og programudvalg: Deltog i godkendelse af kursusbeskrivelser og strategiske beslutninger vedrørende matematiske fag og studieretninger."
+      ],
+      "Teknologier": [
+        "Ledelse",
+        "Økonomistyring",
+        "Strategisk planlægning",
+        "Eventkoordinering",
+        "Frivilligledelse",
+        "Beslutningstagning",
+        "Akademisk udvikling",
+        "Kursusplanlægning",
+        "Brobygning mellem studerende og erhvervsliv",
+        "Samarbejde i udvalg"
+      ],
+      "Start": "2013-09-01",
+      "Slut": "2017-12-31"
+    },
+    {
+      "Firma": "Studenterhus Aarhus",
+      "Titler": [ "Næstformand (bestyrelse)", "Gruppeleder" ],
+      "Fritekst" : "Studenterhus Aarhus (SA) er en organisation, med fokus på studiemiljøet i og omkring Aarhus. SA afholder: kurser, events, koncerter og meget andet. Jeg var gruppekoordinator (gruppeleder) i erhvervsgruppen hvor vi afholdte en række events. Blandt andet har jeg været ansvarlig for at afvikle jobcrawl, som har til formål at bygge bro mellem de studerende og erhvervslivet. Som gruppeleder skal man have øje for detaljen samtidigt med det store overblik. Man skal være motiverende, da de mennesker, der lægger deres tid i gruppen, alle er frivillige. Diplomati og struktur er essentielle værktøjer i sådan et gruppearbejde. Jeg var en del af bestyrelsen for Studenterhus Aarhus, dette giver udfordringer på højere niveau. Som en del af bestyrelsen, var jeg med i beslutningsprocesserne, i forhold til, hvad retning Studenterhus Aarhus skal tage. Jeg brugte mine erfaringer som teamleder og gruppekoordinator til at opstille realistiske mål, for at sikre et hus ",
+      "TagLines": [
+        "Ansvarlig for planlægning og afvikling af events samt brobygning mellem studerende og erhvervslivet.",
+        "Deltog i bestyrelsesarbejde med fokus på strategisk udvikling, målsætning og ledelse af frivillige teams."
+      ],
+      "Teknologier": [
+        "Projektledelse",
+        "Teamledelse",
+        "Strategisk planlægning",
+        "Eventkoordinering",
+        "Kommunikation",
+        "Frivilligledelse",
+        "Målstyring",
+        "Strukturering",
+        "Beslutningstagning",
+        "Netværksopbygning",
+        "Brobygning mellem studerende og erhvervsliv"
+      ],
+      "Start": "2013-09-01",
+      "Slut": "2015-12-31"
+    },
+    {
+      "Firma": "Jul for de studerende",
+      "Titler": [ "Medarrangør", "kok" ],
+      "Fritekst" : "Efter jeg i 2013, havde brugt min juleaften sammen med en mængde hårdt ramte børnefamilier, havde jeg lyst til at finde andre områder, hvor jeg kunne gøre en forskel. Da jeg i flere omgange har boet på kollegie, og set mange internationale der ikke har mulighed for at komme hjem til deres familier, gik jeg ind i et samarbejde med Studenterhus Aarhus og studenterpræsten og vi fik i samarbejde opbygget en juleaften for 60 internationale (og nationale) studerende. ",
+      "TagLines": [
+        "Organiserede en juleaften for 60 internationale og nationale studerende i samarbejde med Studenterhus Aarhus og studenterpræsten.",
+        "Tog initiativ til at skabe et inkluderende fællesskab for studerende, der ikke havde mulighed for at fejre jul med deres familier."
+      ],
+      "Teknologier": [
+        "Eventplanlægning",
+        "Samarbejde",
+        "Initiativtagning",
+        "Organisering af fællesskaber"
+      ],
+      "Start": "2014-12-01",
+      "Slut": "2014-12-25"
+    },
+    {
+      "Firma": "Kristinedal, Roskildefestival",
+      "Titler": [ "Produktionschef" ],
+      "Fritekst": "Ansvar for produktion og salg, jeg var leder for ca. 50 frivillige. Jeg var med til at sikre omsætningsrekord, i et miljø hvor man ikke kender sine kollegaer indgående. Jeg lærte at genkende kompetencer hos folk, så jeg kunne sætte dem i de rigtige roller.",
+      "TagLines": [
+        "Ansvarlig for produktion og salg med ledelse af ca. 50 frivillige, hvilket resulterede i omsætningsrekord.",
+        "Udviklede evner i at identificere frivilliges kompetencer og matche dem med passende roller i et dynamisk arbejdsmiljø."
+      ],
+      "Teknologier": [
+        "Frivilligledelse",
+        "Resultatopnåelse",
+        "Tilpasningsevne"
+      ],
+      "Start": "2011-06-20",
+      "Slut": "2011-06-27"
+    }
+  ],
+  "Certificeringer" : [
+    {
+      "Titel": "PSM1",
+      "CertifikatUrl": "https://www.credly.com/badges/fcf3b1b8-e816-4ee8-ab34-394cbb4688d3/",
+      "Beskrivelse": "Those who earn the globally recognized Professional Scrum Master I (PSM I) certification have demonstrated a fundamental level of Scrum mastery, including the concepts of applying Scrum, and proven an understanding of Scrum as described in the Scrum Guide. This individual has also demonstrated a consistent use of terminology and approach to Scrum."
+    },
+    {
+      "Titel": "Azure Data Fundamentals",
+      "CertifikatUrl": "https://www.credly.com/badges/afad3b34-7f61-4376-ac00-343e1cbe8a51/",
+      "Beskrivelseslink": "Earners of the Azure Data Fundamentals certification have demonstrated foundational knowledge of core data concepts and how they are implemented using Microsoft Azure data services."
+    },
+    {
+      "Titel": "Azure AI Fundamentals",
+      "CertifikatUrl": "https://www.credly.com/badges/ff17d79f-3ce8-4a1b-ae0a-292b5066b2a2",
+      "Beskrivelseslink": "Earners of the Azure AI Fundamentals certification have demonstrated foundational knowledge of machine learning (ML) and artificial intelligence (AI) concepts and related Microsoft Azure services."
+    },
+    {
+      "Titel": "Data Engineer Associate",
+      "CertifikatUrl": "https://www.datacamp.com/certificate/DEA0010068161694",
+      "Beskrivelseslink": "To get certified as a Data engineer Associate, this candidate had to demonstrate that they have the knowledge, skills, and abilities to succeed at the entry level in this role. The competency domains assessed included, but were not limited to: Data Management, Exploratory Analysis"
+    },
+    {
+      "Titel": "Data Analyst Associate",
+      "CertifikatUrl": "https://www.datacamp.com/certificate/DAA0019141443876",
+      "Beskrivelseslink": "To get certified as a Data Analyst Associate, this candidate had to demonstrate that they have the knowledge, skills, and abilities to succeed at the entry level in this role. The competency domains assessed included, but were not limited to: Data Management, Exploriatory Analysis, Statistical Experimentation, Communication and Visualization"
+    }
+  ],
+  "Personlig": "Jeg har en passion for at skabe og fordybe mig i forskellige håndværk og aktiviteter. Når jeg ikke er på arbejde, finder jeg glæde i træarbejde, hvor jeg især elsker at restaurere gammelt værktøj og give det nyt liv. Jeg er også en ivrig brætspiller, og det, jeg nyder mest ved det, er at dykke ned i reglerne og finde ud af, hvordan jeg kan mestre spillets strategier. Udover træarbejde arbejder jeg også med læder, hvor jeg skaber alt fra tasker til knivskeder og punge – altid med fokus på kvalitet og detaljer. Musik spiller også en stor rolle i mit liv, hvor jeg både spiller guitar og synger, hvilket giver mig mulighed for at udforske min kreative side på en anden måde."
 }
+
